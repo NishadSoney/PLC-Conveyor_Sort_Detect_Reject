@@ -173,13 +173,13 @@ Diagrams, flowchart and ladder/simulator screenshots are in the [`images/`](imag
 PLC-Conveyor-Defect-Rejection/
 ├── README.md                          # Project overview (this file)
 ├── PLC_Conveyor.gx3                   # GX Works3 project (FX5U ladder program)
-├── Capstone_Report.pdf                # Full capstone project report
+├── Report.pdf                # Full capstone project report
 ├── images/
-│   ├── block_diagram.png              # System block diagram
-│   ├── data_flow_diagram.png          # State / data flow diagram
-│   ├── flowchart.png                  # Control flowchart
+│   ├── Block Diagram.png              # System block diagram
+│   ├── Data Flow Diagram.png          # State / data flow diagram
+│   ├── Flowchart.png                  # Control flowchart
 └── media/
-    └── simulation_demo.mp4            # Simulation recording
+    └── Simulation_Demo.mp4            # Simulation recording
 ```
 
 | Folder | Contents |
