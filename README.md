@@ -138,7 +138,7 @@ The simulator shows the FX5UCPU in **RUN** with **PWR** and **RUN** lit and **ER
 
 ## Demo Video
 
-The simulation recording is uploaded in this repository in the [`media/`](media/) folder as `simulation_demo.mp4`. Download it or open it from the repo to watch the program run in GX Simulator3.
+The simulation recording is uploaded in this repository in the [`media/`](media/) folder as `Simulation_Demo.mp4`. Download it or open it from the repo to watch the program run in GX Simulator3.
 
 Diagrams, flowchart and ladder/simulator screenshots are in the [`images/`](images/) folder.
 
@@ -172,7 +172,6 @@ Diagrams, flowchart and ladder/simulator screenshots are in the [`images/`](imag
 ```
 PLC-Conveyor-Defect-Rejection/
 ├── README.md                          # Project overview (this file)
-├── LICENSE                            # License file (optional)
 ├── PLC_Conveyor.gx3                   # GX Works3 project (FX5U ladder program)
 ├── Capstone_Report.pdf                # Full capstone project report
 ├── images/
