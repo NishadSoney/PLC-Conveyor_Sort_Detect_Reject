@@ -154,7 +154,7 @@ Diagrams, flowchart and ladder/simulator screenshots are in the [`images/`](imag
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/NishadSoney/PLC-Conveyor_Sort_Detect_Reject.git
    ```
 2. Open `PLC_Conveyor.gx3` in GX Works3.
 3. Convert the program (`F4`) and confirm the Converted Result pane is empty.
