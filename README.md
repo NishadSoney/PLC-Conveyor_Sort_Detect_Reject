@@ -2,7 +2,7 @@
 
 A PLC-based conveyor control system that automatically detects defective objects and rejects them from the line using a pneumatic cylinder, while good items continue downstream. Programmed in Ladder Diagram on a **Mitsubishi FX5U (MELSEC iQ-F)** and verified in **GX Simulator3**.
 
-> Third Year B.Tech Capstone Project, Electronics and Computer Science
+> Third Year B.Tech Capstone Project for PLC, Electronics and Computer Science
 > St. John College of Engineering & Management, University of Mumbai (2026-2027)
 
 ---
@@ -156,7 +156,7 @@ Diagrams, flowchart and ladder/simulator screenshots are in the [`images/`](imag
    ```bash
    git clone https://github.com/<your-username>/<your-repo-name>.git
    ```
-2. Open `src/PLC_Conveyor.gx3` in GX Works3.
+2. Open `PLC_Conveyor.gx3` in GX Works3.
 3. Convert the program (`F4`) and confirm the Converted Result pane is empty.
 4. Start **GX Simulator3** and write the program to the simulated CPU.
 5. Set the CPU to **RUN**.
@@ -173,27 +173,18 @@ Diagrams, flowchart and ladder/simulator screenshots are in the [`images/`](imag
 PLC-Conveyor-Defect-Rejection/
 ├── README.md                          # Project overview (this file)
 ├── LICENSE                            # License file (optional)
-├── src/
-│   └── PLC_Conveyor.gx3               # GX Works3 project (FX5U ladder program)
-├── docs/
-│   └── Capstone_Report.pdf            # Full capstone project report
+├── PLC_Conveyor.gx3                   # GX Works3 project (FX5U ladder program)
+├── Capstone_Report.pdf                # Full capstone project report
 ├── images/
 │   ├── block_diagram.png              # System block diagram
 │   ├── data_flow_diagram.png          # State / data flow diagram
 │   ├── flowchart.png                  # Control flowchart
-│   ├── ladder_steps_0-27.png          # Ladder monitoring, steps 0-27
-│   ├── ladder_steps_19-44.png         # Ladder monitoring, steps 19-44
-│   ├── ladder_steps_44-56.png         # Ladder monitoring, steps 44-56
-│   ├── simulator_steps_0-27.png       # GX Simulator3 in RUN, steps 0-27
-│   └── simulator_steps_44-56.png      # GX Simulator3 in RUN, steps 44-56
 └── media/
     └── simulation_demo.mp4            # Simulation recording
 ```
 
 | Folder | Contents |
 |--------|----------|
-| `src/`    | The GX Works3 project file with the ladder program |
-| `docs/`   | The full project report (PDF) |
 | `images/` | Diagrams and screenshots used in the report |
 | `media/`  | Simulation video |
 
